@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        h2 {
+            color: #555;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+
+        p {
+            color: #666;
+            font-size: 16px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: #333;
+        }
+
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    
+    <form>
+        <h1>Welcome to the Quiz!</h1>
+        <p>Test your knowledge about countries!</p>
+
+        <h2>1. What is the capital of France?</h2>
+        <label><input type="radio" name="q1" value="a"> A) Berlin</label>
+        <label><input type="radio" name="q1" value="b"> B) Madrid</label>
+        <label><input type="radio" name="q1" value="c"> C) Paris</label>
+        <label><input type="radio" name="q1" value="d"> D) Rome</label><br>
+
+        <h2>2. What is the biggest country in the world (by area)?</h2>
+        <label><input type="radio" name="q2" value="a"> A) United States of America</label>
+        <label><input type="radio" name="q2" value="b"> B) Canada</label>
+        <label><input type="radio" name="q2" value="c"> C) Russia</label>
+        <label><input type="radio" name="q2" value="d"> D) China</label><br>
+
+        <h2>3. What is the smallest country in the world (by area)?</h2>
+        <label><input type="radio" name="q3" value="a"> A) Monaco</label>
+        <label><input type="radio" name="q3" value="b"> B) Singapore</label>
+        <label><input type="radio" name="q3" value="c"> C) Vatican City</label>
+        <label><input type="radio" name="q3" value="d"> D) Belgium</label><br>
+
+        <button type="submit">Submit Quiz</button>
+    </form>
+
+</body>
+</html>
+
